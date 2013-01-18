@@ -1,0 +1,55 @@
+html{
+    background-color:black;
+    overflow:hidden;
+}
+#logo{
+    position:absolute;
+    left:1124px;
+    /*top:(0;*/
+}
+#preload{
+    
+}
+#testdiv{
+    position:absolute;
+    left:200px;
+    top:0px;
+    font-size: 200%;
+    color:blue;
+}
+#leveldiv{
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-size: 200%;
+    color:blue;
+}
+.menu{
+    position:absolute;
+    left:0px;
+    top:0px;
+    color:blue;
+    z-index: 10000;
+}
+#playbutton{
+    left:121px;
+    top:231px;
+    z-index: 1000000;
+    cursor: pointer;
+}
+#scoresbutton{
+    left:121px;
+    top:405px;
+    z-index: 1000000;
+    cursor: pointer;
+}
+.impact{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
